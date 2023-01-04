@@ -18,15 +18,19 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>2/7 Google UX Course Certificate.</p>
+              <p>Sketching idea on Figma platform</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Elementary in Figma.</p>
+              <p>Design vector on Adobe Illustrator</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Intermediate in Photoshop.</p>
+              <p>UX Researching</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>User-centered design</p>
             </li>
           </ul>
         </article>
@@ -39,15 +43,15 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>3 months self-taught in HTML.</p>
+              <p>Build a website</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>3 months self-taught in CSS.</p>
+              <p>Deploy a website</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>3 months self-taught in Javascript.</p>
+              <p>9 months of self-taught in HTML/CSS/Javscript.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -64,7 +68,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Experienced in Canva.</p>
+              <p>Experienced in Content Creation in Audio/Sound/Music field.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -72,7 +76,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>80 followers on Spotify</p>
+              <p>Content influencer, have knowledge in branding and labeling services</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>

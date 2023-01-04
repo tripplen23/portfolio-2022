@@ -35,7 +35,7 @@ const Contact = () => {
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Binh Nguyen</h5>
-            <a href="https://m.me/profile.php?id=100080776254953" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="https://www.facebook.com/profile.php?id=100080776254953" target="_blank" rel="noreferrer">Send a message</a>
           </article>
 
           <article className="contact__option">

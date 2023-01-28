@@ -43,7 +43,15 @@ const About = () => {
           My mission is to bring the aesthetic values to our users or as well as I would like to give this World big visual perspectives through the eyes of a programming artist.
           </p>
 
-          <a href="#contact" className='btn btn__primary'>Let's Talk</a>
+          <div class="login-box">
+            <a href="#contact">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Let's Talk
+            </a>
+            </div>
         </div>
       </div>
     </section>
@@ -51,3 +59,4 @@ const About = () => {
 }
 
 export default About
+

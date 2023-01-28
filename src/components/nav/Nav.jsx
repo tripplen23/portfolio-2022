@@ -6,9 +6,37 @@ import {BsBookmarkCheck} from 'react-icons/bs'
 import {RiServiceLine} from 'react-icons/ri'
 import {AiOutlineMessage} from 'react-icons/ai'
 import { useState } from 'react'
+import { useEffect } from 'react'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = [
+        { id: '#', offset: 0 },
+        { id: '#about', offset: document.querySelector('#about').offsetTop },
+        { id: '#experience', offset: document.querySelector('#experience').offsetTop },
+        { id: '#services', offset: document.querySelector('#services').offsetTop },
+        { id: '#contact', offset: document.querySelector('#contact').offsetTop }
+      ]
+
+      const currentPosition = window.pageYOffset + 100;
+
+      sections.forEach(section => {
+        if (currentPosition >= section.offset) {
+          setActiveNav(section.id)
+        }
+      })
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
+
   return (
     <nav>
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
